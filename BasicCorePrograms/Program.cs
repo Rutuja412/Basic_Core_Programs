@@ -19,6 +19,9 @@ namespace BasicCorePrograms
             Console.WriteLine("-------Harmonic Number-----");
             HarmonicNumber harmonicNumber=new HarmonicNumber();
             harmonicNumber.Harmonic();
+            Console.WriteLine("-----Prime Factors-----");
+            PrimeFactors primeFactors=new PrimeFactors();
+            primeFactors.Prime();
             
         }
     }
