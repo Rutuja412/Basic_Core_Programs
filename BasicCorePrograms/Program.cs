@@ -22,6 +22,9 @@ namespace BasicCorePrograms
             Console.WriteLine("-----Prime Factors-----");
             PrimeFactors primeFactors=new PrimeFactors();
             primeFactors.Prime();
+            Console.WriteLine("______QuotientRemainder-----");
+            QuoRem quoRem=new QuoRem();
+            quoRem.Compute();
             
         }
     }
