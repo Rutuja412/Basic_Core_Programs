@@ -16,7 +16,9 @@ namespace BasicCorePrograms
             Console.WriteLine("---------Power of Two--------");
             PowerOfTwo powerOfTwo=new PowerOfTwo();
             powerOfTwo.Power();
-
+            Console.WriteLine("-------Harmonic Number-----");
+            HarmonicNumber harmonicNumber=new HarmonicNumber();
+            harmonicNumber.Harmonic();
             
         }
     }

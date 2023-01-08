@@ -9,7 +9,7 @@ namespace BasicCorePrograms
         public void Checkyear()
         {
             Console.WriteLine("Enter Year You Want to check:");
-            int year= int.Parse(Console.ReadLine());
+            int year = int.Parse(Console.ReadLine());
             if (year % 400 == 0)
             {
                 Console.WriteLine(year + " is Leap Year ");
