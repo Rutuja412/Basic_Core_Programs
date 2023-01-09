@@ -31,6 +31,9 @@ namespace BasicCorePrograms
             Console.WriteLine("-------OddEven--------");
             OddEven oddEven=new OddEven();
             oddEven.Number();
+            Console.WriteLine("------Check Alphabet --------");
+            CheckAlphabet checkAlphabet=new CheckAlphabet();
+            checkAlphabet.Vowel();
             
         }
     }
