@@ -8,8 +8,9 @@ namespace BasicCorePrograms
     {
         public void Prime()
         {
+            int n;
             Console.WriteLine("Enter a number: ");
-            int n=int.Parse(Console.ReadLine());
+            n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Fators are :");
             for (int i=0; i<n; i++) 
             {

@@ -25,6 +25,9 @@ namespace BasicCorePrograms
             Console.WriteLine("______QuotientRemainder-----");
             QuoRem quoRem=new QuoRem();
             quoRem.Compute();
+            Console.WriteLine("------Swapping of 2 Numbers-------");
+            SwapNumbers swapNumbers = new SwapNumbers();
+            swapNumbers.Swapping(); 
             
         }
     }
