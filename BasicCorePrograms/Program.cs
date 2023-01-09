@@ -27,7 +27,10 @@ namespace BasicCorePrograms
             quoRem.Compute();
             Console.WriteLine("------Swapping of 2 Numbers-------");
             SwapNumbers swapNumbers = new SwapNumbers();
-            swapNumbers.Swapping(); 
+            swapNumbers.Swapping();
+            Console.WriteLine("-------OddEven--------");
+            OddEven oddEven=new OddEven();
+            oddEven.Number();
             
         }
     }
