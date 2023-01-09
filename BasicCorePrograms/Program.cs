@@ -34,6 +34,9 @@ namespace BasicCorePrograms
             Console.WriteLine("------Check Alphabet --------");
             CheckAlphabet checkAlphabet=new CheckAlphabet();
             checkAlphabet.Vowel();
+            Console.WriteLine("-----Largest Number-------");
+            LargestNumber largestNumber = new LargestNumber();
+            largestNumber.Large();
             
         }
     }
